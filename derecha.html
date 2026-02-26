@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Paisajes del Mundo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* 🔥 Fondo moderno */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #41295a, #2F0743);
+        }
+
+        header h1 {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            margin: 0;
+        }
+
+        /* 📦 Sección fila */
+        .fila {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px;
+        }
+
+        /* 💎 Caja estilo glass */
+        .caja {
+            width: 40%;
+            padding: 25px;
+
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.3);
+
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+            transition: all 0.3s ease;
+        }
+
+        .caja:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+        }
+
+        /* 🖼 Imagen */
+        .imagen {
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .imagen:hover {
+            transform: scale(1.05);
+        }
+
+        /* 📱 Responsive */
+        @media (max-width: 768px) {
+            .fila {
+                flex-direction: column;
+            }
+
+            .caja {
+                width: 80%;
+                text-align: center;
+            }
+
+            .imagen {
+                width: 80%;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1><DIV align="left">BOLIVIA</DIV></h1>
+</header>
+
+
+
+<hr>
+<!-- 📦 Caja izquierda - Imagen derecha -->
+<section class="fila">
+    <div class="caja">
+        <p><h1>Salar de Uyuni (Bolivia)</h1><br>
+El Salar de Uyuni, situado en Potosí, Bolivia, a 3.650 msnm, es el mayor desierto de sal continuo y alto del mundo, con una extensión superior a los 10.000 km². Resto de un lago prehistórico, destaca por sus paisajes surrealistas, el efecto espejo durante la temporada de lluvias (enero-marzo) y albergar la mitad del litio mundial.</p>
+    </div>
+    <center><img src="bolivia.png" class="imagen"></center>
+</section>
+
+<footer>
+
+
+</p>
+</footer>
+
+</body>
+</html>

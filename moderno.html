@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Paisajes del Mundo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* 🔥 Fondo moderno */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+        }
+
+        header h1 {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            margin: 0;
+        }
+
+        /* 📦 Sección fila */
+        .fila {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px;
+        }
+
+        /* 💎 Caja estilo glass */
+        .caja {
+            width: 40%;
+            padding: 25px;
+
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.3);
+
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+            transition: all 0.3s ease;
+        }
+
+        .caja:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+        }
+
+        /* 🖼 Imagen */
+        .imagen {
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .imagen:hover {
+            transform: scale(1.05);
+        }
+
+        /* 📱 Responsive */
+        @media (max-width: 768px) {
+            .fila {
+                flex-direction: column;
+            }
+
+            .caja {
+                width: 80%;
+                text-align: center;
+            }
+
+            .imagen {
+                width: 80%;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1><DIV align="left">PAISAJES DEL MUNDO</DIV></h1>
+</header>
+
+
+
+<hr>
+<!-- 📦 Caja izquierda - Imagen derecha -->
+<section class="fila">
+    <div class="caja">
+        <p><h1>Banff (Canadá)</h1><br>
+El Parque Natural de Banff es el Parque Nacional más antiguo y conocido de un país tan extenso y lleno de atractivos naturales como es Canadá. Se ubica en las Montañas Rocosas Canadienses, en la provincia de Alberta, y su extensión es de 6.641 kilómetros cuadrados.</p>
+    </div>
+    <img src="canada.png" class="imagen">
+</section>
+
+
+
+<hr>
+<!-- 🖼 Imagen izquierda - Caja derecha -->
+<section class="fila">
+    <img src="ArgBra.png" class="imagen">
+    <div class="caja">
+        <p><h1>Cataratas de Iguazú (Argentina y Brasil)</h1><br>
+Las cataratas de Iguazú están consideradas como una de las “Siete Maravillas Naturales del Mundo”, así como Patrimonio de la Humanidad por la Unesco. Son un amplio conjunto de saltos de agua que parten del río Iguazú y se ubican en el límite entre la provincia argentina de Misiones y el estado brasileño de Paraná. En ambos países se han constituido parques nacionales con el mismo nombre del río.</p>
+    </div>
+</section>
+
+
+
+<hr>
+<!-- 📦 Caja izquierda - Imagen derecha -->
+<section class="fila">
+    <div class="caja">
+        <p><h1>Parque Nacional del Serengeti (Tanzania)</h1><br>
+Serengeti es un Parque Nacional situado en Tanzania que comprende un amplio territorio de más de 13.000 kilómetros cuadrados. Es un lugar espectacular a causa sobre todo de su excepcional fauna, siendo el parque que alberga la mayor población de leones de toda África. También es famoso por la migración anual de más de un millón de ñus.
+
+Es hogar de grandes mamíferos: leones, leopardos, elefantes, rinocerontes y búfalos cafres; y también de muchas otras especies como hienas, gacelas, guepardos, cebras, avestruces, jirafas y gran variedad de aves rapaces, además de los cocodrilos e hipopótamos que residen en sus arroyos. La composición del suelo, abundante en rocas volcánicas impide el crecimiento de vegetación alta por lo que este entorno abierto es ideal para el avistamiento de animales.
+
+</p>
+    </div>
+    <img src="tanzania.png" class="imagen">
+</section>
+
+
+
+<hr>
+<!-- 🖼 Imagen izquierda - Caja derecha -->
+<section class="fila">
+    <img src="croacia.png" class="imagen">
+    <div class="caja">
+        <p><h1>Los lagos de Plitvice (Croacia)</h1><br>
+El Parque Nacional de los lagos de Plitvice es uno de los más bellos de toda Europa. Pasear por sus senderos y sus puentes de madera nos hace disfrutar de un auténtico paraíso del agua, además de colmarnos con el abrumador verde que rodea todo el parque.</p>
+    </div>
+</section>
+
+
+<footer>
+    <p>No existe mayor espectáculo que el que nos ofrece la naturaleza. Te describimos los 10 espacios naturales más espectaculares del mundo.
+
+Para la indescriptible suerte de los seres humanos, este planeta que habitamos está lleno de espacios naturales que son una maravilla para nuestros sentidos. Para los que tienen alma de viajero, es seguro que los paisajes naturales que nos depara nuestro mundo, son objetivos de visita. Todos deseamos poder estar en alguno de estos parajes privilegiados y en Tarannà Viajes con Sentido alentamos a nuestros viajeros a que puedan hacer realidad estos anhelos con nuestra variada oferta de viaje.
+
+Hablando estrictamente de naturaleza, y por tanto dejando a un lado las obras humanas, es muy difícil elegir qué lugares son los mejores y más espectaculares. Obviamente siempre existe el subjetivismo y los gustos personales, pero nuestra selección de los 10 espacios naturales más espectaculares del mundo es la siguiente, aunque está claro que podemos descubrir muchísimos más.
+
+</p>
+</footer>
+
+</body>
+</html>
